@@ -52,5 +52,10 @@ public class Student extends Human {
           System.err.println("Missing command line arguments");
           System.exit(1);
       }
+
+      if (args.length == 1) {
+          System.err.println("Missing gender");
+          System.exit(1);
+      }
   }
 }
