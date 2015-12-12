@@ -39,7 +39,7 @@ public class Student extends Human {
    * <code>Student</code>.                                                          
    */                                                                               
   public String toString() {
-      throw new UnsupportedOperationException("Not implemented yet");
+      return this.name;
   }
 
   /**
@@ -57,5 +57,6 @@ public class Student extends Human {
           System.err.println("Missing gender");
           System.exit(1);
       }
+
   }
 }

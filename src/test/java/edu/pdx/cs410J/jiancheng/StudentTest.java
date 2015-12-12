@@ -1,10 +1,13 @@
 package edu.pdx.cs410J.jiancheng;
 
 import edu.pdx.cs410J.InvokeMainTestCase;
+import org.hamcrest.CoreMatchers;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.ArrayList;
 
+import static org.hamcrest.CoreMatchers.startsWith;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.hamcrest.core.StringContains.containsString;
@@ -42,6 +45,29 @@ public class StudentTest extends InvokeMainTestCase
     public void allStudentsSayThisClassIsTooMuchWork() {
         Student student = new Student("name", new ArrayList(), 1.23, "male");
         assertThat(student.says(), equalTo("This class is too much work"));
+    }
 
+    @Test
+    public void studentNamedDaveHasNameOfDave() {
+        Student dave = getStudent();
+
+        assertThat(dave.toString(), startsWith("Dave"));
+    }
+
+    private Student getStudent() {
+        ArrayList classes = new ArrayList();
+        classes.add("Algorithm");
+        classes.add("Operating Systems");
+        classes.add("Java");
+        return new Student("Dave", classes, 3.64, "male");
+    }
+
+
+    @Ignore
+    @Test
+    public void studentToStringOfDavemale3_64AlgorithmsOperatingSystemsJava() {
+        Student dave = getStudent();
+
+        assertThat(dave.toString(), equalTo("Dave has a GPA of 3.64 and is taking 3 classes: Algorithms, Operating Systems, and Java.  He says \"This class is too much work\"."));
     }
 }
