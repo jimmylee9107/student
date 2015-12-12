@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="542d2cd8-4fcf-4bb6-997e-1184754551c8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/pdx/cs410J/jiancheng/Student.class" afterPath="$PROJECT_DIR$/target/classes/edu/pdx/cs410J/jiancheng/Student.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/edu/pdx/cs410J/jiancheng/StudentTest.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/pdx/cs410J/jiancheng/StudentTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/jiancheng/Student.java" afterPath="$PROJECT_DIR$/src/main/java/edu/pdx/cs410J/jiancheng/Student.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/edu/pdx/cs410J/jiancheng/StudentTest.java" afterPath="$PROJECT_DIR$/src/test/java/edu/pdx/cs410J/jiancheng/StudentTest.java" />
     </list>
     <ignored path="student.iws" />
@@ -44,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/pdx/cs410J/jiancheng/StudentTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5511222">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -614,7 +616,7 @@
       <updated>1448243497562</updated>
       <workItem from="1448243499294" duration="5885000" />
       <workItem from="1449714146051" duration="2661000" />
-      <workItem from="1449884362607" duration="2254000" />
+      <workItem from="1449884362607" duration="2890000" />
     </task>
     <task id="LOCAL-00001" summary="Edit error message when the gender is missing from the command line">
       <created>1448247129821</created>
@@ -628,7 +630,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449885809058</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="simple test for the name of student">
+      <created>1449887076677</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1449887076677</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -653,8 +661,8 @@
     <history-entry file="StudentTest - 2015.12.11 at 21h 24m 05s.xml">
       <configuration name="StudentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTest_onlyOneArgumentPrintsMissingGenderToStandardErrot - 2015.11.22 at 21h 49m 17s.xml">
-      <configuration name="StudentTest.onlyOneArgumentPrintsMissingGenderToStandardErrot" configurationId="JUnit" />
+    <history-entry file="StudentTest - 2015.12.11 at 21h 27m 37s.xml">
+      <configuration name="StudentTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StudentTest_onlyOneArgumentPrintsMissingGenderToStandardErrot - 2015.11.22 at 21h 49m 47s.xml">
       <configuration name="StudentTest.onlyOneArgumentPrintsMissingGenderToStandardErrot" configurationId="JUnit" />
@@ -664,7 +672,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10800000" />
+    <option name="totallyTimeSpent" value="11436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -672,7 +680,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -701,7 +709,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Edit error message when the gender is missing from the command line" />
     <MESSAGE value="dec11" />
-    <option name="LAST_COMMIT_MESSAGE" value="dec11" />
+    <MESSAGE value="simple test for the name of student" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple test for the name of student" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -815,7 +824,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/pdx/cs410J/jiancheng/StudentTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5511222">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

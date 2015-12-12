@@ -49,24 +49,30 @@ public class StudentTest extends InvokeMainTestCase
 
     @Test
     public void studentNamedDaveHasNameOfDave() {
-        Student dave = getStudent();
+        Student dave = getStudent("Dave");
 
         assertThat(dave.toString(), startsWith("Dave"));
     }
 
-    private Student getStudent() {
+    @Test
+    public void studentNamedFrankHasNameOfFrank() {
+        Student frank = getStudent("Frank");
+
+        assertThat(frank.toString(), startsWith("Frank"));
+    }
+    private Student getStudent(String name) {
         ArrayList classes = new ArrayList();
         classes.add("Algorithm");
         classes.add("Operating Systems");
         classes.add("Java");
-        return new Student("Dave", classes, 3.64, "male");
+        return new Student(name, classes, 3.64, "male");
     }
 
 
     @Ignore
     @Test
     public void studentToStringOfDavemale3_64AlgorithmsOperatingSystemsJava() {
-        Student dave = getStudent();
+        Student dave = getStudent("Dave");
 
         assertThat(dave.toString(), equalTo("Dave has a GPA of 3.64 and is taking 3 classes: Algorithms, Operating Systems, and Java.  He says \"This class is too much work\"."));
     }
